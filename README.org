@@ -1,0 +1,28 @@
+#+title: React Native Learning
+#+author: Md. Shafiqur Rahman
+
+* Essentials
+** Basics and Fundamentals [/]
+- [X] Flex Box
+  - Flex Direction controls the orientations of "Main Axis" and "Cross
+    Axis"
+  #+begin_src javaScript 
+   {
+   flex: 1,
+   flexDirection: 'column',
+   justifyContent: 'flex-start',
+   alignItems: 'flex-start'
+   } 
+  #+end_src
+** Dynamic and Adaptive Layouts
+** Navigation
+* React And React Native [/]
+- [ ] ~Redux~ and React Native
+- [ ] Complex Example App
+- [ ] Handling User Input
+- [ ] HTTP Requests
+* Advance [/]
+- [ ] User Authentication
+- [ ] Native Device Features
+- [ ] Push Notification
+- [ ] Publishing Apps
