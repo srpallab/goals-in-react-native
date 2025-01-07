@@ -22,6 +22,7 @@ function GoalInput(props) {
                 placeholder="Your Course Goal!"
                 onChangeText={goalInputHandler}
                 value={enteredGoalText}
+                multiline={true}
             />
             <View style={styles.buttonContainer}>
                 <View style={styles.buttonStyle}>
@@ -56,6 +57,7 @@ const styles = StyleSheet.create({
     },
     textInput: {
         width: "100%",
+        
         borderWidth: 1,
         padding: 16,
         borderColor: '#e4d0ff',
